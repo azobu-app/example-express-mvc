@@ -1,5 +1,8 @@
 # Example Express
 
+- Production: https://example-express.azobu.app
+- Heroku: https://azobu-example-express.herokuapp.com
+
 ## API Documentation
 
 | HTTP  | Endpoint | Description              |
