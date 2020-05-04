@@ -1,0 +1,8 @@
+{
+  "name": "Example Express",
+  "description": "Example Express with REST API",
+  "repository": "https://github.com/azobu-app/example-express",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["example", "node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

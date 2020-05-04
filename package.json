@@ -2,6 +2,7 @@
   "name": "example-express",
   "version": "1.0.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
@@ -14,5 +15,15 @@
   },
   "devDependencies": {
     "nodemon": "2.0.3"
-  }
+  },
+  "keywords": [
+    "example",
+    "node",
+    "heroku",
+    "express"
+  ],
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
 }
