@@ -1,7 +1,7 @@
-# Example Express
+# Example Express MVC
 
-- Production: https://example-express.azobu.app
-- Heroku: https://azobu-example-express.herokuapp.com
+- Production: https://example-express-mvc.azobu.app
+- Heroku: https://azobu-example-express-mvc.herokuapp.com
 
 ## API Documentation
 
@@ -17,12 +17,34 @@
 | HTTP     | Endpoint     | Description           |
 | -------- | ------------ | --------------------- |
 | `GET`    | `/users`     | Get all users         |
-| `GET`    | `/users/:id` | Get one user by id    |
+| `GET`    | `/users/:id` | Get user by id        |
 | `POST`   | `/users`     | Add new user          |
 | `DELETE` | `/users`     | Delete all users      |
 | `DELETE` | `/users/:id` | Delete one user by id |
 | `PUT`    | `/users/:id` | Update one user by id |
-| `PATCH`  | `/users/:id` | Patch one user by id  |
+
+## Data Schema
+
+### User
+
+```json
+{
+  "id": 1,
+  "name": "M Haidar Hanif",
+  "username": "mhaidarh",
+  "email": "haidar@haidar.com"
+}
+```
+
+### Todo
+
+```json
+{
+  "id": 1,
+  "text": "Read a story book",
+  "isCompleted": true
+}
+```
 
 ## Usage
 
