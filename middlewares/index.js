@@ -8,4 +8,10 @@ router.get('/', (req, res, next) => {
   })
 })
 
+router.get('/hello', (req, res, next) => {
+  res.send({
+    message: 'Hello world',
+  })
+})
+
 module.exports = router
